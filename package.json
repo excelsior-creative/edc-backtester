@@ -4,7 +4,7 @@
   "description": "A first example of a trading strategy backtested using Grademark.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "ts-node index.js"
   },
   "repository": {
     "type": "git",
@@ -24,5 +24,11 @@
     "easy-table": "^1.1.1",
     "grademark": "^0.2.9",
     "plot": "^1.0.17"
+  },
+  "devDependencies": {
+    "json-2-csv": "^3.17.1",
+    "ts-node": "^10.7.0",
+    "tsconfig-paths": "^4.0.0",
+    "typescript": "^4.6.4"
   }
 }
