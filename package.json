@@ -18,15 +18,18 @@
   "homepage": "https://github.com/ashleydavis/grademark-first-example#readme",
   "dependencies": {
     "@plotex/render-image": "^1.0.15",
+    "csvtojson": "^2.0.10",
     "data-forge": "^1.8.11",
     "data-forge-fs": "^0.0.8",
     "data-forge-indicators": "^0.2.5",
     "easy-table": "^1.1.1",
     "grademark": "^0.2.9",
-    "plot": "^1.0.17"
+    "plot": "^1.0.17",
+    "technicalindicators": "^3.1.0"
   },
   "devDependencies": {
     "json-2-csv": "^3.17.1",
+    "lodash": "^4.17.21",
     "ts-node": "^10.7.0",
     "tsconfig-paths": "^4.0.0",
     "typescript": "^4.6.4"
